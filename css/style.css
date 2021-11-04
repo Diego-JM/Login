@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  background-image: url('../img/baground-window.png');
+  background-repeat: repeat;
+  background-size: cover;
+  backdrop-filter: blur(4px);
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+  box-shadow: inset 0px 2px 3px rgb(0, 0, 0, 0.25);
+}
+
+main form {
+  margin-top: 3.5%;
+  width: 35%;
+  height: 75vh;
+
+  background: rgb(16, 0, 119);
+  background: linear-gradient(
+    90deg,
+    rgba(16, 0, 119, 0.7399334733893557) 0%,
+    rgb(211, 0, 204) 100%
+  );
+
+  box-shadow: 1px 1px 9px 0.1px rgb(75, 3, 99);
+
+  border-radius: 10px;
+  padding: 5%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main form .inputs-container {
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main form .inputs-container input {
+  width: 100%;
+  height: 45px;
+  padding: 8px 15px;
+  border: 0;
+  outline: none;
+  border-radius: 7px;
+  font-size: 16px;
+  color: rgb(29, 29, 29);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+main form .inputs-container input:focus {
+  box-shadow: inset 1px 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+main form .password-container {
+  margin-top: 5%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main form .password-container i {
+  position: absolute;
+  right: 8%;
+  top: 35%;
+  color: rgb(29, 29, 29);
+  cursor: pointer;
+}
+
+main form .password-container #eye-open {
+  display: none;
+}
+
+main form .password-infos {
+  width: 100%;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main form .password-infos a {
+  transition: 0.2s ease-in-out;
+}
+
+main form .password-infos a:hover {
+  color: rgb(0, 210, 247);
+}
+
+main button {
+  margin-top: 3%;
+  width: 100%;
+  height: 10%;
+  background-color: rgb(26, 91, 255);
+  border-radius: 6px;
+  outline: 0;
+  border: 0;
+  font-size: 1.2em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+main button:hover {
+  background-color: rgb(141, 226, 252);
+  transition: 0.8ms ease-in-out;
+  color: rgb(44, 44, 44);
+}
+
+main .links-container {
+  margin-top: 2%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .links-container span {
+  margin-top: 5%;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+main .links-container aside {
+  margin-top: 5%;
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main .links-container aside i {
+  font-size: 1.8em;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 40px;
+  transition: 0.3s ease-in-out;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .links-container aside .google {
+  color: #e34133;
+}
+
+main .links-container aside .google:hover {
+  background-color: #e34133;
+  color: white;
+}
+
+main .links-container aside .linkedin {
+  color: #0e76a8;
+}
+
+main .links-container aside .linkedin:hover {
+  background-color: #0e76a8;
+  color: white;
+}
+main .links-container aside .github {
+  color: #171515;
+}
+
+main .links-container aside .github:hover {
+  background-color: #171515;
+  color: white;
+}
+
+main form footer {
+  margin-top: 5%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main form footer hr {
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+}
+
+main form footer span {
+  font-weight: 400;
+  font-size: 0.9em;
+  margin-top: 5%;
+}
+
+main form footer span a {
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+
+main form footer span a:hover {
+  color: rgb(0, 210, 247);
+}
